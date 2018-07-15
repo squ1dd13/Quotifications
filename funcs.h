@@ -55,7 +55,7 @@ NSString *stringBetweenStrings(NSString *data, NSString *leftData, NSString *rig
 
 NSString *quoteFromSourceOne() {
 	//abuse my key as much as you like
-	NSString *apiKey = @"NQGDl1nDzYmshWS463yqY72hN4iFp1MqVgMjsny1YOpjuUeINJ";
+	NSString *apiKey = @"nice try sparky, no key here";
 
 	//we have to make sure no quotes are cached
 	NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://andruxnet-random-famous-quotes.p.mashape.com/"]
