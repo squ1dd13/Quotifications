@@ -10,6 +10,8 @@
 #import <QuartzCore/QuartzCore.h>
 #import "funcs.h"
 
+//NOTE: MOST OF THE USEFUL CODE IS IN funcs.h
+
 #pragma mark Interfaces
 @interface SBUILegibilityLabel : UIView
 @property (nonatomic, copy, readwrite) NSString *string;
