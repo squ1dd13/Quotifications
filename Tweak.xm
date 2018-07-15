@@ -63,6 +63,7 @@ static BOOL longPressSpeak = GetPrefBool(@"longPressSpeak");
 %hook SBFStaticWallpaperView
 
 //hackiest method known to any developer ever
+//TODO: drop this and have it write to no files
 -(void)setContentView:(id)arg1 {
 	if(useWallpaperColor) {
 		CGFloat red = 0.0, green = 0.0, blue = 0.0, alpha = 0.0;
