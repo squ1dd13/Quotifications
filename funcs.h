@@ -1,3 +1,7 @@
+#pragma mark Prefs helpers
+#define PLIST_PATH @"/var/mobile/Library/Preferences/com.squ1dd13.ncquote.plist"
+#define prefsDict [NSDictionary dictionaryWithContentsOfFile:PLIST_PATH]
+
 inline bool GetPrefBool(NSString *key)
 {
 	return [[prefsDict valueForKey:key] boolValue];
