@@ -1,0 +1,9 @@
+Package: com.squ1dd13.quotifications
+Name: Quotifications
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Change the ’No Recent Notifications’ text to a random quote!
+Maintainer: Squ1dd13
+Author: Squ1dd13
+Section: Tweaks
