@@ -42,12 +42,6 @@
 #pragma mark End Interfaces
 
 
-
-#pragma mark Prefs helpers
-#define PLIST_PATH @"/var/mobile/Library/Preferences/com.squ1dd13.ncquote.plist"
-#define prefsDict [NSDictionary dictionaryWithContentsOfFile:PLIST_PATH]
-
-
 #pragma mark Pref loading
 static BOOL allowFunny = GetPrefBool(@"allowMovie");
 static BOOL useWallpaperColor = GetPrefBool(@"useWallCol");
